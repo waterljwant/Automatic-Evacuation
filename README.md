@@ -8,4 +8,8 @@ For the withdrawaling problem of small ground mobile robots in the field, an aut
 LI Jie, YUAN Xia, ZHAO Chunxia, LU Jianfeng. Automatic Withdrawal Method Based on 2D Laser Radar for Small Ground Mobile Robot. ROBOT, 2017, 39(5): 688-696.
 
 # Code
-Coming soon.
+核心算法包括：数据滤波算法；数据聚类算法；特定目标检测算法；影响层划分算法。  
+说明：此处发布各算法的理论原型代码，采用matlab或python实现。在集成的实验平台上，采用C/C++实现，整体的系统运行与运动控制算法不在本文的范围之内。    
+代码使用：
+  * 运行main.m的Matlab代码，即可实现将雷达数据进行滤波、聚类和特定目标检测。   
+  * 影响层划分算法对应layer.py的Python代码，运行该代码后将在控制台输出划分结果。
